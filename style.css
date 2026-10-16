@@ -169,6 +169,8 @@ body.light .focus-card, body.light .research-card, body.light .project-card { ba
 .publication-list { border-top: 1px solid var(--border); }
 .publication-item { display: grid; grid-template-columns: 76px 1fr; gap: 1.4rem; padding: 1.35rem 0; border-bottom: 1px solid var(--border); }
 .pub-year { color: var(--accent); font-weight: 700; font-size: .9rem; }
+.publication-item > a { display: block; text-decoration: none; color: inherit; }
+.publication-item > a:hover h3 { color: var(--accent); }
 .publication-item h3 { margin: 0; color: var(--heading); font-size: 1rem; line-height: 1.45; }
 .publication-item p { margin: .32rem 0 0; color: var(--text-soft); font-size: .86rem; }
 .text-link { display: inline-flex; gap: .5rem; align-items: center; color: var(--accent); text-decoration: none; font-weight: 700; margin-top: 1.2rem; }
